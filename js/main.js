@@ -40,7 +40,7 @@ const paths = [
     tags: ["进组", "论文", "竞赛", "推荐信"]
   },
   {
-    title: "校园生存",
+    title: "校园生活",
     key: "生活",
     icon: "生",
     color: "#2c6d73",
