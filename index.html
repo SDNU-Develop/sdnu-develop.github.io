@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>山东师范大学学生飞跃手册</title>
+    <meta name="description" content="面向山东师范大学学生的升学、留学、保研、考研、就业与科研经验手册。">
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="山东师范大学学生飞跃手册首页">
+        <span class="brand-mark" aria-hidden="true">山</span>
+        <span>
+          <strong>山东师范大学学生飞跃手册</strong>
+          <small>SDNU Student Feiyue Manual</small>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <a href="#paths">路径</a>
+        <a href="#timeline">时间线</a>
+        <a href="#library">资料库</a>
+        <a href="#contribute">投稿</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="intro-band" aria-labelledby="intro-title">
+        <div class="intro-copy">
+          <p class="eyebrow">面向山师学生的开放经验手册</p>
+          <h1 id="intro-title">升学、申请、科研和就业路径</h1>
+          <p class="intro-text">发起人：2022届毕业生任重阳、吕文芮、隋欣仪</p>
+          <p class="intro-text">贡献者：2022届毕业生任重阳、吕文芮、隋欣仪</p>
+          <div class="intro-actions" aria-label="快捷入口">
+            <a class="primary-action" href="#library">资料库</a>
+            <a class="secondary-action" href="#contribute">投稿</a>
+          </div>
+        </div>
+        <figure class="intro-media">
+          <img src="./assets/cover.png" alt="桌面上摊开的笔记本、申请材料和电脑时间线。">
+        </figure>
+      </section>
+
+      <section class="home-note" aria-labelledby="home-note-title">
+        <div class="home-note-label">写在前面</div>
+        <div>
+          <h2 id="home-note-title">这不是一份催促大家“必须飞跃”的清单。</h2>
+          <p>这份手册只想把已经走过的路、踩过的坑和可以公开的信息整理出来，供后来者在需要时少一点摸索。每个人的节奏、家庭情况、专业兴趣和生活选择都不同，升学、就业、留在本地、暂时休息或重新开始，都不应该被简单比较。请把这里的经验当作参考，而不是标准答案；也希望每位贡献者在分享结果之外，尽量写清背景、取舍和不确定性。</p>
+        </div>
+      </section>
+
+      <section class="quick-index" aria-labelledby="quick-title">
+        <div class="section-heading">
+          <p class="eyebrow">目录入口</p>
+          <h2 id="quick-title">当前骨架</h2>
+        </div>
+        <div class="index-grid">
+          <a href="#paths"><span>6</span>条主路径</a>
+          <a href="#library"><span>18</span>个文章位</a>
+          <a href="#cases"><span>12</span>个案例位</a>
+          <a href="#timeline"><span>4</span>年级时间线</a>
+        </div>
+      </section>
+
+      <section id="paths" class="content-band" aria-labelledby="paths-title">
+        <div class="section-heading">
+          <p class="eyebrow">飞跃路径</p>
+          <h2 id="paths-title">按目标组织，而不是按文章堆叠。</h2>
+        </div>
+        <div class="path-grid" id="pathGrid"></div>
+      </section>
+
+      <section class="content-band muted-band" aria-labelledby="map-title">
+        <div class="section-heading">
+          <p class="eyebrow">山师语境</p>
+          <h2 id="map-title">后续内容建议覆盖这些层级。</h2>
+        </div>
+        <div class="manual-map">
+          <article>
+            <h3>学校与学院</h3>
+            <p>学院政策、导师资源、课程安排、实验室入口、校区生活、官方通知源。</p>
+          </article>
+          <article>
+            <h3>个人画像</h3>
+            <p>年级、专业、绩点排名、科研经历、竞赛项目、语言成绩、实习经历。</p>
+          </article>
+          <article>
+            <h3>结果沉淀</h3>
+            <p>录取去向、申请清单、时间线复盘、失败原因、费用预算、可复用材料。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="timeline" class="content-band" aria-labelledby="timeline-title">
+        <div class="section-heading">
+          <p class="eyebrow">时间线</p>
+          <h2 id="timeline-title">从大一到毕业季的准备节奏。</h2>
+        </div>
+        <div class="timeline-grid" id="timelineGrid"></div>
+      </section>
+
+      <section id="library" class="content-band" aria-labelledby="library-title">
+        <div class="section-heading library-heading">
+          <div>
+            <p class="eyebrow">资料库</p>
+            <h2 id="library-title">文章位先留空，目录先可用。</h2>
+          </div>
+          <label class="search-field">
+            <span>搜索</span>
+            <input id="searchInput" type="search" placeholder="输入路径、标题、标签" autocomplete="off">
+          </label>
+        </div>
+        <div class="segmented" role="tablist" aria-label="资料筛选">
+          <button class="segment is-active" type="button" data-filter="all">全部</button>
+          <button class="segment" type="button" data-filter="留学">留学</button>
+          <button class="segment" type="button" data-filter="保研">保研</button>
+          <button class="segment" type="button" data-filter="考研">考研</button>
+          <button class="segment" type="button" data-filter="就业">就业</button>
+          <button class="segment" type="button" data-filter="科研">科研</button>
+          <button class="segment" type="button" data-filter="生活">生活</button>
+        </div>
+        <div class="article-grid" id="articleGrid"></div>
+      </section>
+
+      <section id="cases" class="content-band muted-band" aria-labelledby="cases-title">
+        <div class="section-heading">
+          <p class="eyebrow">学生案例</p>
+          <h2 id="cases-title">案例库占位。</h2>
+        </div>
+        <div class="case-grid" id="caseGrid"></div>
+      </section>
+
+      <section id="contribute" class="content-band contribute-band" aria-labelledby="contribute-title">
+        <div class="section-heading">
+          <p class="eyebrow">投稿模板</p>
+          <h2 id="contribute-title">把经验写成可复用材料。</h2>
+        </div>
+        <div class="template-grid">
+          <article class="template-panel">
+            <div class="template-title">
+              <h3>文章模板</h3>
+              <button type="button" class="copy-button" data-template="articleTemplate">复制</button>
+            </div>
+            <pre id="articleTemplate"># 标题
+
+## 适用对象
+
+## 背景信息
+- 学院/专业：
+- 年级/申请年份：
+- 目标方向：
+
+## 核心经验
+
+## 时间线
+
+## 材料清单
+
+## 风险与建议
+
+## 可公开联系方式
+</pre>
+          </article>
+          <article class="template-panel">
+            <div class="template-title">
+              <h3>案例模板</h3>
+              <button type="button" class="copy-button" data-template="caseTemplate">复制</button>
+            </div>
+            <pre id="caseTemplate"># 学生案例
+
+## 基本画像
+- 学院/专业：
+- GPA/排名：
+- 英语/语言成绩：
+- 科研/竞赛/实习：
+
+## 申请或求职结果
+
+## 关键决策
+
+## 复盘
+- 做对了什么：
+- 可以更早做什么：
+- 不建议照搬什么：
+</pre>
+          </article>
+        </div>
+        <p class="copy-status" id="copyStatus" role="status" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>山东师范大学学生飞跃手册网页骨架。当前版本不包含真实学生案例，后续内容需由维护者审核后加入。</p>
+      <a href="#top">回到顶部</a>
+    </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
